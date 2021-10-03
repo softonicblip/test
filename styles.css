@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+@font-face {
+  font-family: nmed;
+  src: url('NordMedium.woff2');
+  }
+  
+@font-face {
+  font-family: nbld;
+  src: url('NordBold.otf');
+}
+
+@font-face {
+  font-family: nblck;
+  src: url('NordBlack.otf');
+}
+
+:root {
+	--bg-select: hsl(235, 86%, 65%);
+}
+
+body {
+	margin: 0;
+	background: #2f3136;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,0%,0.5);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #36393f;
+}
+
+h4, small {
+  margin: 0px;
+  padding: 0px;
+}
+
+h4 {
+	font-family: nmed, Fallback, sans-serif;
+	margin-left: 3px;
+}
+
+h2 {
+	font-family: nblck, Fallback, sans-serif;
+}
+
+small {
+	color: hsla(0,0%,100%,.5);
+}
+
+.sep {
+	height: 10px;
+	bottom: 0px;
+}
+
+.union {
+	display: inline-block;
+}
+
+.hd {
+        background: hsla(0,0%,0%,.2);
+        color: white;
+
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+.logo {
+        font-size: 10px;
+        height: auto;
+        margin: 0 8px;
+    }
+    
+.ft {
+		background: white;
+        display: flex;
+        align-items: center;
+}
+
+.txt {
+		margin-left: 15px;
+		color: black;
+}
+
+       /*
+       linear-gradient(90deg,#8565F2, #5865C1)
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	cursor: pointer; 
+	#040405;
+	#0c0d10;
+	#101116;
+	#14151b;
+	#191a21;
+	#20212b;
+	#f1f1f1;
+	#bfc4c9;
+	#95989d;
+	#3a71c1;
+	#2f5b9d;
+	rgba(58, 113, 193, .4);
+	*/
+
+.container {
+	display: flex;
+}
+
+button {
+	display: block;
+  	text-align: start;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	color: white;
+	width: 225px;
+	padding: 10px;
+	margin: 8px;
+	border-radius: 4px;
+	transition: 0.08s;
+}
+
+.screen {
+
+	height: 100vh;
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	background: #36393f;
+  	word-break: break-all;
+  	
+}
+
+
+.default {
+	background: hsla(0,0%,0%,0);
+	cursor: pointer;
+}
+
+.default:hover {
+	background: hsla(0,0%,100%,0.05);
+}
+
+.selected {
+	background: var(--bg-select);
+	filter: drop-shadow(0px 0px 10px hsla(235, 86%, 65%, 0.4))
+}
+
+.warn {
+	background: hsla(0,0%,100%,0.05);
+}
+
+.warn:hover {
+	background: hsla(0,0%,100%,0.07);
+}
+
+.gray, .sep {
+	color: hsl(0,0%,40%);
+	
+}

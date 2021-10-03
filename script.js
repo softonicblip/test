@@ -1,6 +1,6 @@
 //Get Countries From Json File
 const searchcountry = async searchBox => {
-  const res = await fetch('../data/countries.json');
+  const res = await fetch('https://gdbrowser.com/api/level/4284013');
   const countries = await res.json();
 
   //Get Entered Data

@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 
-@font-face {
-  font-family: nmed;
-  src: url('NordMedium.woff2');
-  }
-  
-@font-face {
-  font-family: nbld;
-  src: url('NordBold.otf');
-}
-
-@font-face {
-  font-family: nblck;
-  src: url('NordBlack.otf');
-}
-
 :root {
 	--bg-select: hsl(235, 86%, 65%);
 }
@@ -45,12 +30,12 @@ h4, small {
 }
 
 h4 {
-	font-family: nmed, Fallback, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-left: 3px;
 }
 
 h2 {
-	font-family: nblck, Fallback, sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 small {

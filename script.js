@@ -6,7 +6,7 @@ const searchcountry = async searchBox => {
   //Get Entered Data
   let fits = countries.filter(country => {
     const regex = new RegExp(`^${searchBox}`, 'gi');
-    return country.name.match(regex) || country.abbr.match(regex);
+    return country.name.match(regex) || country.version.match(regex);
   });
 
   if (searchBox.length === 0) {
@@ -28,11 +28,11 @@ const outputHtml = fits => {
        <div class="card  grey darken-4 darken-1">
          <div class="card-content white-text">
            <h4 class="card-title m1">${fit.name} (${
-          fit.abbr
-        })<span class="blue-text m-4"> ${fit.capital}</span></h4>
+          fit.version
+        })<span class="blue-text m-4"> ${fit.id}</span></h4>
         <div class="card-action">
         <a>Country Code :</a>
-        <a>${fit.phoneCode}</a>
+        <a>${fit.epic}</a>
       </div>
          </div>
        </div>

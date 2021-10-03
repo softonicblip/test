@@ -11,19 +11,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-body::-webkit-scrollbar {
-    width: 8px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: hsla(0,0%,0%,0.5);
-    border-radius: 10px;
-}
-
-body::-webkit-scrollbar-track {
-    background: #36393f;
-}
-
 h4, small {
   margin: 0px;
   padding: 0px;
@@ -61,24 +48,6 @@ small {
 		margin-left: 15px;
 		color: black;
 }
-
-       /*
-       linear-gradient(90deg,#8565F2, #5865C1)
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	cursor: pointer; 
-	#040405;
-	#0c0d10;
-	#101116;
-	#14151b;
-	#191a21;
-	#20212b;
-	#f1f1f1;
-	#bfc4c9;
-	#95989d;
-	#3a71c1;
-	#2f5b9d;
-	rgba(58, 113, 193, .4);
-	*/
 
 .container {
 	display: flex;

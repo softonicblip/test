@@ -51,25 +51,10 @@ small {
 	display: inline-block;
 }
 
-.hd {
-        background: hsla(0,0%,0%,.2);
-        color: white;
-
-        height: 30px;
-        display: flex;
-        align-items: center;
-    }
-
 .logo {
         font-size: 10px;
         height: auto;
         margin: 0 8px;
-    }
-    
-.ft {
-		background: white;
-        display: flex;
-        align-items: center;
 }
 
 .txt {
